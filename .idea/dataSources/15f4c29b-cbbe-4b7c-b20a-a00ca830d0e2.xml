@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="customers@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="customers">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="curlform"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="logintest"/>
+    <schema id="6" parent="1" name="magento"/>
+    <schema id="7" parent="1" name="medlemsreg"/>
+    <schema id="8" parent="1" name="mvc_project"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="php_test_swe"/>
+    <schema id="12" parent="1" name="produkter"/>
+    <schema id="13" parent="1" name="projekt4"/>
+    <schema id="14" parent="1" name="SocialNetwork"/>
+    <schema id="15" parent="1" name="Vår-Britt"/>
+    <schema id="16" parent="1" name="wieg16_laravel"/>
+    <schema id="17" parent="1" name="world"/>
+    <table id="18" parent="2" name="address"/>
+    <table id="19" parent="2" name="customers"/>
+    <column id="20" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="18" name="customer_id">
+      <Position>2</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="18" name="customer_address_id">
+      <Position>3</Position>
+      <DataType>int(100)|0</DataType>
+    </column>
+    <column id="23" parent="18" name="email">
+      <Position>4</Position>
+      <DataType>varchar(156)|0</DataType>
+    </column>
+    <column id="24" parent="18" name="firstname">
+      <Position>5</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="18" name="lastname">
+      <Position>6</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="18" name="postcode">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="18" name="street">
+      <Position>8</Position>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="18" name="city">
+      <Position>9</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="18" name="telephone">
+      <Position>10</Position>
+      <DataType>int(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="18" name="country_id">
+      <Position>11</Position>
+      <DataType>varchar(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="18" name="address_type">
+      <Position>12</Position>
+      <DataType>varchar(56)|0</DataType>
+    </column>
+    <column id="32" parent="18" name="company">
+      <Position>13</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="18" name="country">
+      <Position>14</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="19" name="email">
+      <Position>1</Position>
+      <DataType>varchar(156)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="19" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="19" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(56)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="19" name="gender">
+      <Position>4</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="19" name="customer_activated">
+      <Position>5</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="19" name="group_id">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="19" name="customer_company">
+      <Position>7</Position>
+      <DataType>varchar(156)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="19" name="default_billing">
+      <Position>8</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="19" name="default_shipping">
+      <Position>9</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="19" name="is_active">
+      <Position>10</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="19" name="created_at">
+      <Position>11</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="45" parent="19" name="updated_at">
+      <Position>12</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="46" parent="19" name="customer_invoice_email">
+      <Position>13</Position>
+      <DataType>varchar(156)|0</DataType>
+    </column>
+    <column id="47" parent="19" name="customer_extra_text">
+      <Position>14</Position>
+      <DataType>varchar(156)|0</DataType>
+    </column>
+    <column id="48" parent="19" name="customer_due_date_period">
+      <Position>15</Position>
+      <DataType>timestamp|0</DataType>
+    </column>
+    <column id="49" parent="19" name="id">
+      <Position>16</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
